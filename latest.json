@@ -54,9 +54,9 @@
    "manifest_sha256": "6d143513054e1ef96e1fb362dab63ad05414a34f81c1eba52e290558f23d1112"
   },
   "release": {
-   "generated_at": "2026-11-23T21:36:39Z",
+   "generated_at": "2026-11-23T22:11:32Z",
    "valuation_date": "2026-11-23",
-   "engine_commit": "5bd630b6e98b99d79b7fb14bf1264962af6825f4",
+   "engine_commit": "9394c7210a3a4c3f1efc125c1f9cc3c424b3f35e",
    "fast": false
   },
   "flags": [],
@@ -93,12 +93,12 @@
   }
  },
  "meta": {
-  "generated_at": "2026-11-23T21:36:39Z",
+  "generated_at": "2026-11-23T22:11:32Z",
   "valuation_date": "2026-11-23",
   "facts_date": "2026-06-30",
   "book_version": "1.4",
   "book_date": "2026-11-23",
-  "engine_commit": "5bd630b6e98b99d79b7fb14bf1264962af6825f4",
+  "engine_commit": "9394c7210a3a4c3f1efc125c1f9cc3c424b3f35e",
   "basis": "скорр. EBITDA компании (после аренды офисов)",
   "shares_mln": 398.298711,
   "shares_outstanding_mln": 380.885255,
@@ -113,10 +113,10 @@
   "worlds_version": "1.7",
   "fast": false,
   "draws": 2000,
-  "payload_sha256": "4844b3a06c73236c3fe1c90340e6be5b0d84bae128564c5d9832c63fe4416215",
-  "bytes": 133325,
-  "previous_sha256": null,
-  "published_at": "2026-11-23T21:36:39+00:00"
+  "payload_sha256": "a4c5f6bea94eea92f59b732b598e8ca8aace1121698e16987b21459c7c9486cf",
+  "bytes": 133949,
+  "previous_sha256": "4844b3a06c73236c3fe1c90340e6be5b0d84bae128564c5d9832c63fe4416215",
+  "published_at": "2026-11-23T22:11:33+00:00"
  },
  "market": {
   "price": 3282.0,
@@ -10135,12 +10135,37 @@
  },
  "changes": {
   "vs_previous": {
-   "previous_sha": null,
-   "previous_generated_at": null,
-   "rows": [],
-   "total_rub": null,
-   "note": "прошлого выпуска нет",
-   "reference": null
+   "previous_sha": "4844b3a06c73236c3fe1c90340e6be5b0d84bae128564c5d9832c63fe4416215",
+   "previous_generated_at": "2026-11-23T21:36:39Z",
+   "rows": [
+    {
+     "component": "residual",
+     "title": "книга, факты и код",
+     "rub": -0.0013289801
+    },
+    {
+     "component": "market_price",
+     "title": "цена рынка",
+     "rub": 0.0
+    },
+    {
+     "component": "valuation_date",
+     "title": "дата оценки (перекат)",
+     "rub": 0.0
+    }
+   ],
+   "total_rub": -0.0013289801,
+   "note": "код 5bd630b6e98b → 9394c7210a3a; дата оценки 2026-11-23 → 2026-11-23 (+0 дн.)",
+   "reference": {
+    "printed_central": 3000.0,
+    "central": 3013.88,
+    "v0_median": 1455.70474,
+    "point": 3209.02,
+    "book_version": "1.4",
+    "facts_date": "2026-06-30",
+    "valuation_date": "2026-11-23",
+    "fast": false
+   }
   }
  },
  "book": {
